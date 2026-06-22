@@ -2,10 +2,10 @@
 
 :root{
     --branco: white;
-    --cor-de-fundo: #ba9fee;
-    --fundo-senha: #cb93ec;
-    --fundo-texto: #e8c0ff;
-    --borda: #e1b2ec;
+    --cor-de-fundo: #c5acf5;
+    --fundo-senha: #daaaf7;
+    --fundo-texto: #e5bdfc;
+    --borda: #8b5497;
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
 }
@@ -124,3 +124,30 @@ body{
         flex-direction: row;
     }
 }
+.barra{
+    background-color: var(--fundo-senha);
+    height: 30px;
+    width: 100%;
+}
+.forca{
+    height: 30px;
+    position: relative;
+    bottom: 30px;
+}
+.fraca{
+    width: 25%;
+    background-color: #d48af1; 
+}
+.parametro-senha-textos{
+    display: flex;
+    justify-content: space-between;
+}
+.media{
+    background-color: #b508fa;
+    width: 50%;
+}
+.forte{
+    background-color: #a05ada;
+    width: 100%;
+}
+<div class="forca fraca"></div>
